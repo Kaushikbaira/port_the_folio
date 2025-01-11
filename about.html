@@ -10,6 +10,95 @@ title: Sai Kaushik Baira Portfolio
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <style>
+        /* Basic Styling */
+        body {
+            margin: 0;
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            color: #fff;
+            background-color: #121212;
+            scroll-behavior: smooth;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #1e1e1e;
+            padding: 10px 0;
+            z-index: 1000;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ff9800;
+        }
+        section {
+            padding: 100px 20px;
+            text-align: center;
+        }
+        #home {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to right, #141E30, #243B55);
+        }
+        #home h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        #home p {
+            font-size: 1.2em;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        #about, #experience, #skills, #projects {
+            background-color: #1e1e1e;
+        }
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #121212;
+            padding: 20px;
+            text-align: center;
+        }
+        footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        footer ul li a {
+            color: #ff9800;
+            text-decoration: none;
+            font-size: 1em;
+        }
+        footer ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -27,27 +116,27 @@ title: Sai Kaushik Baira Portfolio
     <main>
         <section id="home">
             <h1>Hi, I am KAUSHIK!</h1>
-            <p>Welcome to my portfolio! Explore my skills, experience, and projects below.</p>
+            <p>Welcome to my portfolio! Scroll down to explore my skills, experience, and projects.</p>
         </section>
 
         <section id="about">
             <h2>About Me</h2>
-            <Accomplished Design Engineer with expertise in design, analysis, machine learning, and computer vision, aiming to pursue an MS in Robotics with a concentration in Artificial Intelligence and Human-Computer Interaction to later excel as a Robotics Engineer, driving innovation and creating transformative evolutions in the field.>Write about yourself here. Highlight your journey and goals.</p>
+            <p>I am Sai Kaushik Baira, a passionate developer who enjoys creating impactful projects. My journey is fueled by curiosity and a desire to make meaningful contributions to the tech world.</p>
         </section>
 
         <section id="experience">
             <h2>Experience</h2>
-            <p>Detail your work experience here. Mention roles, companies, and achievements.</p>
+            <p>I have worked in various roles, contributing to projects ranging from web development to complex software systems. My focus is on delivering robust and scalable solutions.</p>
         </section>
 
         <section id="skills">
             <h2>Skills</h2>
-            <p>List your technical and soft skills here. Highlight expertise and certifications.</p>
+            <p>Proficient in HTML, CSS, JavaScript, and Python. Skilled in frameworks such as React, Django, and Flask. Experienced in agile methodologies and collaborative development.</p>
         </section>
 
         <section id="projects">
             <h2>Projects</h2>
-            <p>Showcase your projects. Include links, descriptions, and technologies used.</p>
+            <p>Explore my projects below, showcasing my expertise in front-end and back-end development. Projects include e-commerce platforms, portfolio websites, and data-driven applications.</p>
         </section>
     </main>
 
